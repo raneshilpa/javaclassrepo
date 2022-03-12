@@ -25,13 +25,9 @@ public class ArrayClass {
         System.out.println(Arrays.toString(names));
 
 
-
-
       //  System.out.println(Arrays.binarySearch(names, "Ajay"));
 
-      Student [] students = new Student[];
-
-
+      Student [] students = new Student[10];
 
 
 
