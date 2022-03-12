@@ -11,6 +11,7 @@ public class FactorialNumClass {
 
         int factorial = printFactNum(factNumber); //print factorial of given number
         System.out.println("Factorial of "+factNumber+ " is  : "+factorial);
+
     }
 
     //Function to print factorial of given number
