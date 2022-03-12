@@ -1,7 +1,15 @@
 package com.company;
 
 public class Calculator {
+
+    public String type;
+
+    public Calculator() {
+    }
+
     public static void main(String[] args) {
+
+
        //Addition
         int add_val = add(10, 20);
         System.out.println("The addition is : "+add_val);
@@ -48,8 +56,10 @@ public class Calculator {
         return v*y;
 
     }
-    
 
+    public Calculator(String type) {
+        this.type = type;
+    }
 }
 
 
