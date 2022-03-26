@@ -1,7 +1,7 @@
 package com.company;
 
 public class Student {
-  public static final String COLLEGE_NAME ="Ontario College"
+  public static final String COLLEGE_NAME ="Ontario College";
   public static int student_No;
   private String Name;
   private String course;
